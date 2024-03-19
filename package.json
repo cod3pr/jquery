@@ -56,7 +56,7 @@
     "lint": "concurrently -r \"npm:lint:dev\" \"npm:lint:json\"",
     "npmcopy": "node build/tasks/npmcopy.js",
     "pretest": "npm run qunit-fixture && npm run babel:tests && npm run npmcopy",
-    "postinstall": "patch-package energy_infra",
+    "postinstall": "patch-package webapps-components",
     "qunit-fixture": "node build/tasks/qunit-fixture.js",
     "start": "node -e \"require('./build/tasks/build.js').buildDefaultFiles({ watch: true })\"",
     "test:bundlers": "npm run pretest && npm run build:all && node test/bundler_smoke_tests/run-jsdom-tests.js",
