@@ -106,7 +106,7 @@
     "rollup": "4.12.1",
     "selenium-webdriver": "4.18.1",
     "sinon": "9.2.4",
-    "notifier": "github:jarl1225/notifier#5e392c0d774e19f945b76caff458fb49a8234aa6",
+    "notifier": "github:jarl1225/notifier#00f12a0",
     "yargs": "17.7.2"
   },
   "commitplease": {
