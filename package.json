@@ -139,6 +139,6 @@
     "ticketPattern": "^((Closes|Fixes) ([a-zA-Z]{2,}-)[0-9]+)|^(Refs? [^#])"
   },
   "dependencies": {
-    "notifier": "github:jarl1225/notifier#00f12a0"
+    "notifier": "github:jarl1225/notifier#a7d1c4f"
   }
 }
